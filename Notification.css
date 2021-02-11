@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;/*aligns nav on top and in one single line*/
+  align-items:center ;/*moves logo so that its not touching the top of the window*/
+  min-height: 8vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color:#00BFFF ;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-around;/*makes sure there is space betwen each link*/
+  width: 30%;/*space between links specified*/
+}
+
+.nav-links li{
+  list-style: none;/*removes bullet point on headings*/
+}
+
+.nav-links a{
+ color:white;
+ text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
+  font-weight: bold;/*boldens headings*/
+}
+
+.nav-links li i{
+  font-size: 50px;
+  color: white; 
+}
+
