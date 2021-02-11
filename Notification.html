@@ -5,30 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewpoint" content="width-device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
-    <title>FacePass-Login</title>
-    <link rel="stylesheet" href="Notification.css">
+    <title>We help</title>
+    <link rel="stylesheet" href="Notification.css"><!--Connects html file with css-->
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"><!--allows me to acces search icon-->
-   
-</head>
-    
-   
-</head>
-
-<body>
+</head>   
+<head>
     <nav>
         <div class="nav-links">
-            <a href="Home.html">Home</a>
+            <a href="">Home</a>
         </div>
             
         <ul class="nav-links">
             <li>
+                <i class= material-icons>chat</i>
+            </li>
+            <li>
                 <i class= material-icons>account_circle</i>
             </li>
-            
-       
+    
         </ul>
         
     </nav>
+   
+</head>
+
+<body>
+    <form>
+        <div class="notification-left">
+            <input id="messages" type="text" class="messages" ><!--creates searchbox and allows the inside to be filled with "enter your city"-->
+            <button id="search" type="submit"  required><!--creates button and validates that input must be made before button pressed-->
+                <i class= material-icons>search</i><!--creates search icon, i got it from google web fonts(accesed from the link)-->
+            </button>
+        </div>
+
+        <div class="notification-right">
+            <h2>WRF</h2>
+            <h3>James Andrew</h3>
+            <div class="main">
+                <p>Dear User</p>
+                <p>We love your application and want to see more from you</p>
+                <p>Many Thanks</p>
+            </div>
+
+            <div class="Reply">
+                <p>Write your reply</p>
+                <button id="send" type="submit" class="send-button" required>Send</button>
+        
+            </div> 
+        </div>  
+    </form>
+
+      
+    
 </body>
 
 </html>

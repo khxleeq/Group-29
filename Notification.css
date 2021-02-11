@@ -1,36 +1,60 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-nav{
-  display: flex;
-  justify-content: space-around;/*aligns nav on top and in one single line*/
-  align-items:center ;/*moves logo so that its not touching the top of the window*/
-  min-height: 8vh;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color:#00BFFF ;
-}
-
-.nav-links{
-  display: flex;
-  justify-content: space-around;/*makes sure there is space betwen each link*/
-  width: 30%;/*space between links specified*/
-}
-
-.nav-links li{
-  list-style: none;/*removes bullet point on headings*/
-}
-
-.nav-links a{
- color:white;
- text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
-  font-weight: bold;/*boldens headings*/
-}
-
-.nav-links li i{
-  font-size: 50px;
-  color: white; 
-}
-
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-around;/*aligns nav on top and in one single line*/
+    align-items:center ;/*moves logo so that its not touching the top of the window*/
+    min-height: 8vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#00BFFF ;
+  }
+  
+  .nav-links{
+    display: flex;
+    justify-content: space-around;/*makes sure there is space betwen each link*/
+    width: 30%;/*space between links specified*/
+  }
+  
+  .nav-links li{
+    list-style: none;/*removes bullet point on headings*/
+  }
+  
+  .nav-links a{
+   color:white;
+   text-decoration: none; /*removes the underline under nav headings(hyperlinks)*/
+    font-weight: bold;/*boldens headings*/
+  }
+  
+  .nav-links li i{
+    font-size: 50px;
+    color: white; 
+  }
+  
+  form{
+    color: black;
+    text-align: center;/*positions form on the center of the page*/
+    padding-top: 3cm;
+    display: flex;/*allows content to be on the side*/
+    width: 80%;
+    margin: 50px;
+  }
+  
+  
+  .notification-right{
+    flex-basis: 50%;
+    padding: 50px 10px;
+    text-align: right;
+    background-color:#00BFFF ;
+    color: black;
+    margin-left: 1cm;
+  }
+  
+  .notification-left{
+    flex-basis: 50%;
+    padding: 50px;
+    background-color: #00BFFF;
+  }
